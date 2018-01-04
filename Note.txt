@@ -1,0 +1,47 @@
+﻿정리
+
+
+            **  2018-01-04  **
+-------------------------------------------
+
+-사용자 계정 만들기 (한번 입력하면 계속 로그인이 되어있음)
+* $ git config --global user.email "본인이메일"
+* $ git config --global user.name "본인이름이나 별칭"
+
+1.git 저장소 만들기
+
+   $ git init
+ 
+2.git 추가
+
+   $ git add "파일이름"
+ 
+3.git 파일확인
+
+   $ git status
+
+4.git 확인
+
+  $ git log
+
+5.commit 추가
+
+   $ git commit -m "커밋이름"
+
+*"-" 명령어를 줄여서 쓸때
+*"--" 명령어를 한단어로 완벽하게 쓸때
+
+6.되돌리기
+
+   $ git checkout "커밋이름, 커밋번호6자리"
+
+7.github에 올리기
+
+   $ git push origin master
+
+*origin 설정 : $ git remote add origin "본인github주소"
+
+8.다른 사용자의 저장소 받아오기
+
+   $ git clone "github에서 불러올 대상의 주소"
+
